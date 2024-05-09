@@ -1,2 +1,6 @@
-package com.example.demoworkshop.config;public class SecurityInit {
+package com.example.demoworkshop.config;
+
+import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
+
+public class SecurityInit  extends AbstractSecurityWebApplicationInitializer {
 }
